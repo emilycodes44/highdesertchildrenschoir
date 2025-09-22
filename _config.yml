@@ -1,0 +1,35 @@
+title: High Desert Children's Choir
+email: info@highdesertchildrenschoir.org
+description: >-
+  Welcome to the High Desert Children's Choir - nurturing young voices
+  and building musical excellence in our community.
+baseurl: ""
+url: "https://rob-gonz.github.io/highdesertchildrenschoir"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Announcements
+    url: /announcements/
+
+# Exclude from processing.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
