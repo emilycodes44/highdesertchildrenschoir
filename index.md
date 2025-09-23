@@ -93,7 +93,7 @@ title: Home
         <h2>Join Our Choir</h2>
         <div class="join-content">
             <div class="join-info">
-                <h3>Age Groups</h3>
+                <h3>Age Groups:</h3>
                 <ul>
                     <li><strong>Preparatory Choir (Ages 6-8):</strong> Introduction to singing and basic music skills</li>
                     <li><strong>Elementary Choir (Ages 9-11):</strong> Developing vocal technique and ensemble skills</li>
