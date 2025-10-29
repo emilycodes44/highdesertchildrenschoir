@@ -4,9 +4,12 @@ A Jekyll-based static website for the High Desert Children's Choir, featuring a 
 
 ## 🌟 Features
 
-- **One-page application design** with smooth scrolling navigation
+- **Multi-page website** with dedicated sections for different content
 - **Responsive layout** that works on desktop, tablet, and mobile
-- **Photo gallery** with hover effects and placeholder images
+- **Photo gallery** with filtering and hover effects
+- **Contact form** with Formspree integration
+- **Schedule page** with rehearsal times and events
+- **About page** with detailed choir information
 - **Announcements page** for practices and recitals
 - **Modern design** with professional styling
 - **SEO optimized** with meta tags and site structure
@@ -24,7 +27,7 @@ A Jekyll-based static website for the High Desert Children's Choir, featuring a 
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/emilycodes44/highdesertchildrenschoir.git
 cd highdesertchildrenschoir
 ```
 
@@ -35,10 +38,24 @@ bundle install
 
 3. Start the development server:
 ```bash
-bundle exec jekyll serve
+bundle exec jekyll serve --livereload
 ```
 
-4. Open your browser and visit `http://localhost:4000`
+4. Open your browser and visit `http://localhost:4000/highdesertchildrenschoir/`
+
+### Local Development Notes
+
+- The site uses `baseurl: "/highdesertchildrenschoir"` for GitHub Pages compatibility
+- When testing locally, make sure to include the baseurl in your URL
+- Use `--livereload` flag for automatic browser refresh when files change
+- The site will be available at `http://localhost:4000/highdesertchildrenschoir/`
+
+### Troubleshooting Local Development
+
+1. **Ruby version issues**: Make sure you're using Ruby 3.0 or higher
+2. **Bundle install fails**: Try `bundle update` or check your Ruby version
+3. **Jekyll not found**: Run `gem install jekyll bundler`
+4. **Port already in use**: Use `bundle exec jekyll serve --port 4001` to use a different port
 
 ## 📝 How to Update Content
 
@@ -147,8 +164,6 @@ navigation:
 ├── _config.yml              # Site configuration
 ├── _layouts/
 │   └── default.html         # Main layout template
-├── _includes/               # Reusable components (empty for now)
-├── _data/                   # Data files (empty for now)
 ├── assets/
 │   ├── css/
 │   │   └── style.css        # Main stylesheet
@@ -157,6 +172,10 @@ navigation:
 │   └── images/              # All images and photos
 ├── announcements/
 │   └── index.md            # Announcements page
+├── about.md                # About page
+├── contact.md              # Contact page
+├── gallery.md              # Gallery page
+├── schedule.md             # Schedule page
 ├── index.md                # Homepage content
 ├── Gemfile                 # Ruby dependencies
 └── README.md               # This file

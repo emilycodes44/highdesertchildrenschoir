@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="theme-color" content="#4a90e2">
     <meta name="description" content="{{ page.description | default: site.description }}">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="{{ '/assets/css/style.css' | relative_url }}" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" as="style" crossorigin>
+    
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
