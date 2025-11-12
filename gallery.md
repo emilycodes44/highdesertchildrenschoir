@@ -22,50 +22,50 @@ title: Photo Gallery
         
         <div class="photo-grid">
             <div class="photo-item" data-category="concerts">
-                <img src="{{ '/assets/images/gallery-1.jpg' | relative_url }}" alt="Annual Spring Concert">
+                <img src="{{ '/assets/images/choir_group_photos/choir_recital.jpg' | relative_url }}" alt="Choir Recital">
                 <div class="photo-overlay">
-                    <h3>Annual Spring Concert 2024</h3>
-                    <p>Our annual spring showcase featuring performances by all age groups</p>
-                </div>
-            </div>
-            
-            <div class="photo-item" data-category="concerts">
-                <img src="{{ '/assets/images/gallery-2.jpg' | relative_url }}" alt="Holiday Concert">
-                <div class="photo-overlay">
-                    <h3>Holiday Concert 2023</h3>
-                    <p>A magical evening of festive music and celebration</p>
-                </div>
-            </div>
-            
-            <div class="photo-item" data-category="rehearsals">
-                <img src="{{ '/assets/images/gallery-3.jpg' | relative_url }}" alt="Weekly Rehearsal">
-                <div class="photo-overlay">
-                    <h3>Weekly Rehearsal</h3>
-                    <p>Students working hard during their regular Saturday rehearsal</p>
+                    <h3>Choir Recital</h3>
+                    <p>Beautiful performance showcasing our choir's musical talent</p>
                 </div>
             </div>
             
             <div class="photo-item" data-category="events">
-                <img src="{{ '/assets/images/gallery-4.jpg' | relative_url }}" alt="Community Festival">
+                <img src="{{ '/assets/images/choir_group_photos/choir_hangout.jpg' | relative_url }}" alt="Choir Hangout">
                 <div class="photo-overlay">
-                    <h3>Community Festival</h3>
-                    <p>Performing at the annual High Desert Community Festival</p>
-                </div>
-            </div>
-            
-            <div class="photo-item" data-category="awards">
-                <img src="{{ '/assets/images/gallery-5.jpg' | relative_url }}" alt="Awards Ceremony">
-                <div class="photo-overlay">
-                    <h3>Awards & Recognition</h3>
-                    <p>Celebrating our achievements at the end-of-season ceremony</p>
+                    <h3>Choir Hangout</h3>
+                    <p>Building friendships and community through music</p>
                 </div>
             </div>
             
             <div class="photo-item" data-category="events">
-                <img src="{{ '/assets/images/gallery-6.jpg' | relative_url }}" alt="Group Photo">
+                <img src="{{ '/assets/images/choir_group_photos/20250920_133237.jpg' | relative_url }}" alt="Choir Activity">
                 <div class="photo-overlay">
-                    <h3>Choir Family</h3>
-                    <p>The entire choir family together for our annual group photo</p>
+                    <h3>Choir Activity</h3>
+                    <p>Fun activities and special moments with our choir</p>
+                </div>
+            </div>
+            
+            <div class="photo-item" data-category="events">
+                <img src="{{ '/assets/images/choir_group_photos/choir_group_photo.jpg' | relative_url }}" alt="Group Photo">
+                <div class="photo-overlay">
+                    <h3>Group Photo</h3>
+                    <p>The entire choir family together for our group photo</p>
+                </div>
+            </div>
+            
+            <div class="photo-item" data-category="events">
+                <img src="{{ '/assets/images/choir_group_photos/donuts.jpg' | relative_url }}" alt="Choir Fun">
+                <div class="photo-overlay">
+                    <h3>Choir Fun</h3>
+                    <p>Special treats and celebrations with our choir family</p>
+                </div>
+            </div>
+            
+            <div class="photo-item" data-category="events">
+                <img src="{{ '/assets/images/choir_group_photos/choir_tree climbing.jpg' | relative_url }}" alt="Outdoor Activity">
+                <div class="photo-overlay">
+                    <h3>Outdoor Activity</h3>
+                    <p>Adventure and fun activities outside of rehearsals</p>
                 </div>
             </div>
             

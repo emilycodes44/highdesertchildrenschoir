@@ -10,7 +10,7 @@ title: Home
         <a href="#about" class="cta-button">Learn More</a>
     </div>
     <div class="hero-image">
-        <img src="{{ '/assets/images/hero-placeholder.jpg' | relative_url }}" alt="Children's Choir Performance">
+        <img src="{{ '/assets/images/logo/HDCC_logo.jpg' | relative_url }}" alt="Children's Choir Performance">
     </div>
 </section>
 
@@ -49,39 +49,39 @@ title: Home
         <p class="gallery-intro">Capturing our musical moments and memories</p>
         <div class="photo-grid">
             <div class="photo-item">
-                <img src="{{ '/assets/images/gallery-1.jpg' | relative_url }}" alt="Choir Performance 1">
+                <img src="{{ '/assets/images/choir_group_photos/choir_recital.jpg' | relative_url }}" alt="Choir Recital">
                 <div class="photo-overlay">
-                    <h3>Annual Spring Concert</h3>
+                    <h3>Choir Recital</h3>
                 </div>
             </div>
             <div class="photo-item">
-                <img src="{{ '/assets/images/gallery-2.jpg' | relative_url }}" alt="Choir Performance 2">
+                <img src="{{ '/assets/images/choir_group_photos/choir_hangout.jpg' | relative_url }}" alt="Choir Hangout">
                 <div class="photo-overlay">
-                    <h3>Holiday Performance</h3>
+                    <h3>Choir Hangout</h3>
                 </div>
             </div>
             <div class="photo-item">
-                <img src="{{ '/assets/images/gallery-3.jpg' | relative_url }}" alt="Choir Rehearsal">
+                <img src="{{ '/assets/images/choir_group_photos/20250920_133237.jpg' | relative_url }}" alt="Choir Activity">
                 <div class="photo-overlay">
-                    <h3>Weekly Rehearsal</h3>
+                    <h3>Choir Activity</h3>
                 </div>
             </div>
             <div class="photo-item">
-                <img src="{{ '/assets/images/gallery-4.jpg' | relative_url }}" alt="Community Event">
+                <img src="{{ '/assets/images/choir_group_photos/choir_group_photo.jpg' | relative_url }}" alt="Group Photo">
                 <div class="photo-overlay">
-                    <h3>Community Festival</h3>
+                    <h3>Group Photo</h3>
                 </div>
             </div>
             <div class="photo-item">
-                <img src="{{ '/assets/images/gallery-5.jpg' | relative_url }}" alt="Awards Ceremony">
+                <img src="{{ '/assets/images/choir_group_photos/donuts.jpg' | relative_url }}" alt="Choir Fun">
                 <div class="photo-overlay">
-                    <h3>Awards & Recognition</h3>
+                    <h3>Choir Fun</h3>
                 </div>
             </div>
             <div class="photo-item">
-                <img src="{{ '/assets/images/gallery-6.jpg' | relative_url }}" alt="Group Photo">
+                <img src="{{ '/assets/images/choir_group_photos/choir_tree climbing.jpg' | relative_url }}" alt="Outdoor Activity">
                 <div class="photo-overlay">
-                    <h3>Choir Family</h3>
+                    <h3>Outdoor Activity</h3>
                 </div>
             </div>
         </div>
@@ -93,18 +93,20 @@ title: Home
         <h2>Join Our Choir</h2>
         <div class="join-content">
             <div class="join-info">
+                
                 <h3>Age Groups:</h3>
                 <ul>
-                    <li><strong>Preparatory Choir (Ages 6-8):</strong> Introduction to singing and basic music skills</li>
+                    <li><strong>All Children/Teens (Ages 6 - 17):</strong> Introduction to singing and basic music skills</li>
+                    <!-- <li><strong>Preparatory Choir (Ages 6-8):</strong> Introduction to singing and basic music skills</li>
                     <li><strong>Elementary Choir (Ages 9-11):</strong> Developing vocal technique and ensemble skills</li>
                     <li><strong>Intermediate Choir (Ages 12-14):</strong> Advanced repertoire and performance opportunities</li>
-                    <li><strong>Youth Choir (Ages 15-18):</strong> Pre-professional training and leadership roles</li>
+                    <li><strong>Youth Choir (Ages 15-18):</strong> Pre-professional training and leadership roles</li> -->
                 </ul>
                 
+                
                 <h3>Schedule</h3>
-                <p><strong>Rehearsals:</strong> Saturdays 10:00 AM - 12:00 PM</p>
-                <p><strong>Location:</strong> High Desert Community Center</p>
-                <p><strong>Season:</strong> September - May</p>
+                <p><strong>Rehearsals:</strong> Tuesdays & Thursdays 5:00 PM - 7:00 PM</p>
+                <p><strong>Location:</strong> 11223 11th Ave, Hesperia, CA 92345</p>
                 
                 <h3>Auditions</h3>
                 <p>No experience necessary! We welcome all children who love to sing. For more information about joining, please contact us at {{ site.email }}.</p>

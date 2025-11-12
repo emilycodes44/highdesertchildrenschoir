@@ -1,5 +1,5 @@
 title: High Desert Children's Choir
-email: info@highdesertchildrenschoir.org
+email: highdesertchildrenschoir@gmail.com
 description: >-
   Welcome to the High Desert Children's Choir - nurturing young voices
   and building musical excellence in our community.
@@ -20,8 +20,6 @@ navigation:
     url: /
   - title: About
     url: /about/
-  - title: Schedule
-    url: /schedule/
   - title: Gallery
     url: /gallery/
   - title: Announcements

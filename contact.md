@@ -94,7 +94,7 @@ title: Contact Us
                     
                     <div class="form-group">
                         <label for="child-age">Child's Age (if applicable)</label>
-                        <input type="number" id="child-age" name="child-age" min="6" max="18">
+                        <input type="number" id="child-age" name="child-age" min="6" max="17">
                     </div>
                     
                     <div class="form-group">
@@ -116,7 +116,7 @@ title: Contact Us
             <div class="faq-grid">
                 <div class="faq-item">
                     <h3>What age groups do you accept?</h3>
-                    <p>We welcome children ages 6-18 in our various choir programs. Each age group has its own rehearsal time and appropriate repertoire.</p>
+                    <p>We welcome children ages 6-17 in our choir program.</p>
                 </div>
                 
                 <div class="faq-item">

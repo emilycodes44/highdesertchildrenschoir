@@ -58,6 +58,7 @@ title: About Us
 <section class="programs-section">
     <div class="container">
         <h2>Our Programs</h2>
+        <!-- Programs section temporarily hidden - currently only 6-17 age range
         <div class="programs-grid">
             <div class="program-card">
                 <h3>Preparatory Choir</h3>
@@ -107,6 +108,7 @@ title: About Us
                 </ul>
             </div>
         </div>
+        -->
     </div>
 </section>
 
