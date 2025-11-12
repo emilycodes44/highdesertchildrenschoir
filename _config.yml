@@ -20,12 +20,13 @@ navigation:
     url: /
   - title: About
     url: /about/
-  - title: Gallery
-    url: /gallery/
-  - title: Announcements
-    url: /announcements/
-  - title: Contact
-    url: /contact/
+  # Gallery, Announcements, and Contact pages exist but are hidden from menu for now
+  # - title: Gallery
+  #   url: /gallery/
+  # - title: Announcements
+  #   url: /announcements/
+  # - title: Contact
+  #   url: /contact/
 
 # Exclude from processing.
 exclude:

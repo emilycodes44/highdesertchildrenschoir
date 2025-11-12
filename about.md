@@ -13,18 +13,14 @@ permalink: /about/
 
 <section class="about-story">
     <div class="container">
-        <div class="story-content">
-            <div class="story-text">
-                <h2>Our Story</h2>
-                <p>The High Desert Children's Choir was founded in 2010 with a simple mission: to provide exceptional musical education and performance opportunities for children in our community. What started as a small group of 15 enthusiastic young singers has grown into a thriving organization serving over 100 children annually.</p>
-                
-                <p>Our choir has become a cornerstone of the High Desert arts community, known for our commitment to musical excellence, character development, and community service. We believe that music education goes beyond learning notes and lyrics – it builds confidence, teamwork, and lifelong friendships.</p>
-                
-                <p>Over the years, our choir has performed at prestigious venues throughout the region, participated in international competitions, and collaborated with professional musicians and orchestras. Our alumni have gone on to pursue music degrees, perform professionally, and become music educators themselves.</p>
-            </div>
-            <div class="story-image">
-                <img src="{{ '/assets/images/about-placeholder.jpg' | relative_url }}" alt="Choir History">
-            </div>
+        <div class="story-text">
+            <h2>Our Story</h2>
+            <p>
+                The High Desert Children's Choir provides opportunities for children to develop their musical talents and share their voices with the community. We welcome children aged 4 and above, and our rehearsals are held every Thursday from 5-7pm at the Victor Valley Church in Hesperia, CA. We are actively accepting new members and have been performing at local events throughout the High Desert region, including our recent performance at the Christmas tree lighting event in Lucerne Valley in December 2024.
+            </p>
+            <p>
+                Our director, Ella, is passionate about teaching children to sing and has seen significant development in the children who have participated in our program. Scholarships are available for those who are interested in joining, ensuring that all children have the opportunity to experience the joy of music.
+            </p>
         </div>
     </div>
 </section>
@@ -57,9 +53,9 @@ permalink: /about/
 </section>
 
 <section class="programs-section">
+    <!-- Programs section temporarily hidden - currently only 6-17 age range
     <div class="container">
         <h2>Our Programs</h2>
-        <!-- Programs section temporarily hidden - currently only 6-17 age range
         <div class="programs-grid">
             <div class="program-card">
                 <h3>Preparatory Choir</h3>
@@ -109,8 +105,9 @@ permalink: /about/
                 </ul>
             </div>
         </div>
-        -->
     </div>
+    -->
+
 </section>
 
 <section class="staff-section">
@@ -119,15 +116,15 @@ permalink: /about/
         <div class="staff-grid">
             <div class="staff-card">
                 <div class="staff-info">
-                    <h3>Sarah Johnson</h3>
-                    <p class="staff-title">Artistic Director</p>
-                    <p>Sarah holds a Master's degree in Music Education from UCLA and has been directing children's choirs for over 15 years. She specializes in vocal pedagogy for young singers and has led choirs to numerous awards and recognition.</p>
-                    <p><strong>Education:</strong> M.M. Music Education, UCLA<br>
-                    <strong>Experience:</strong> 15+ years directing youth choirs<br>
-                    <strong>Specialties:</strong> Vocal technique, music theory</p>
+                    <h3>Ella Read</h3>
+                    <p class="staff-title">Director</p>
+                    <p>Ella is the Director and founder of High Desert Children's Choir. She has a strong background in performing arts and has performed professionally herself.</p>
+                    <!-- <p><strong>Education:</strong> M.M. Music Education, UCLA<br> -->
+                    <strong>Experience:</strong> 10+ years performing professionally in performance arts<br>
+                    <strong>Specialties:</strong> Vocal technique, music theory
                 </div>
             </div>
-            
+<!--             
             <div class="staff-card">
                 <div class="staff-info">
                     <h3>Michael Chen</h3>
@@ -148,11 +145,11 @@ permalink: /about/
                     <strong>Experience:</strong> 8+ years teaching music theory<br>
                     <strong>Specialties:</strong> Music theory, sight-singing</p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
-
+<!-- 
 <section class="achievements-section">
     <div class="container">
         <h2>Our Achievements</h2>
@@ -188,8 +185,8 @@ permalink: /about/
             </div>
         </div>
     </div>
-</section>
-
+</section> -->
+<!-- 
 <section class="join-cta">
     <div class="container">
         <h2>Ready to Join Our Musical Family?</h2>
@@ -199,4 +196,4 @@ permalink: /about/
             <a href="/schedule/" class="cta-button secondary">View Schedule</a>
         </div>
     </div>
-</section>
+</section> -->
