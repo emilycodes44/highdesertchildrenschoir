@@ -19,7 +19,7 @@ title: Home
         <h2>About Our Choir</h2>
         <div class="about-content">
             <div class="about-text">
-                <p>The High Desert Children's Choir has been inspiring young musicians for over a decade. We provide a nurturing environment where children aged 6-18 can discover the joy of singing, develop their musical talents, and build lasting friendships.</p>
+                <p>The High Desert Children's Choir has been inspiring young musicians since 2022. We provide a nurturing environment where children aged 6-18 can discover the joy of singing, develop their musical talents, and build lasting friendships.</p>
                 <p>Our experienced directors work with each singer to develop proper vocal technique, musicianship skills, and performance confidence. We perform a diverse repertoire ranging from classical to contemporary music.</p>
                 <div class="about-highlights">
                     <div class="highlight">
